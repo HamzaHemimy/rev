@@ -15,7 +15,7 @@ section{
     color:lightblue;
 }
 .text{
-    color: rgb(230, 230, 9);
+    color:lightblue;
 }
 .text2{
     color: white;
@@ -45,15 +45,28 @@ textarea{
     padding: 5px;
     width: 100%;
 }
-button{
+.b{
     width: 30%;
     background: linear-gradient(120deg,blue,lightblue);
     color: white;
     border: none;
 }
-button:hover{
+.b:hover{
     background: linear-gradient(120deg,lightblue,blue);
     color: black;
     transition: all 0.5s;
     transform: scale(1.1);
+}
+span{
+    color: lightblue;
+}
+#part1{
+    background-color:rgb(3, 3, 78) ;
+}
+.a{
+    color: white;
+}
+.a:hover{
+    color: rgb(47, 117, 141);
+    border-bottom: 2px solid lightblue;
 }
